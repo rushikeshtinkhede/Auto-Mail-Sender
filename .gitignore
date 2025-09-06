@@ -1,0 +1,27 @@
+# Node modules
+node_modules/
+email-sender/node_modules/
+email-sender-backend/node_modules/
+
+# Env files (never commit secrets)
+.env
+email-sender-backend/.env
+email-sender/.env
+
+# Build / dev
+dist/
+build/
+.vite/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Private Resume
+email-sender-backend/resume/
+*.pdf
+
+# Logs
+*.log
